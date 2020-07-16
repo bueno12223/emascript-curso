@@ -29,3 +29,15 @@ import { funcionX } from "index"
 
 
 
+// GENERATORS
+// funcion especial que retorna una serie de valores
+function* hello (){
+    if ( true){
+        yield "hello"
+    }
+    if ( true){
+        yield "everybody"
+    }
+}
+const func = hello();
+console.log(func.next().value)
