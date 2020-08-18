@@ -27,7 +27,7 @@ const obj = {
     ...person,
     country: 'MX' // agrega lo del ojeto anterior y algo extra en estte caso conutry
   };
-  console.log(, personInformation);
+  console.log(personInformation);
   
   /**
    * Promise Finally
@@ -101,4 +101,4 @@ console.log(Object.fromEntries(entries))
 //-------------symbol object--------------------/
 let mySymbol = 'My Symbol';
 let symbol = Symbol(mySymbol);
-console.log(symbol.description);```
+console.log(symbol.description);
